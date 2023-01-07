@@ -7,3 +7,6 @@ Type=simple
 ExecStart=/usr/local/bin/tund
 StandardOutput=null
 Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
