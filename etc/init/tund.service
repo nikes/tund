@@ -1,6 +1,6 @@
 [Unit]
-Description=Tund tunnel
-Documentation=https://github.com/aphyr/tund
+Description=tund client
+After=network.target
 
 [Service]
 Type=simple
